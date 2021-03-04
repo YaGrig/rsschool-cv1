@@ -8,27 +8,28 @@
 
 Because of the nature of online learning, throught out classes **i expect to learn**:
 
-   * *how to manage *knowledge properly*: how to find, evaluate, analyze, and apply information.
+    * *how to manage *knowledge properly*: how to find, evaluate, analyze, and apply information.
 
-   * Become more *independent* as a worker and as a person.
+    * Become more *independent* as a worker and as a person.
 
-   * And at the same time working with other students on solving difficult tasks will help me *improve my communication skills*, which are irreplaceable in 21 ceantury.   
-   * Find new ways of income.
+    * And at the same time working with other students on solving difficult tasks will help me *improve my communication skills*, which are irreplaceable in 21 ceantury.   
+    * Find new ways of income.
+
 
 4. Git, HTML5, CSS3, Node.js, Photoshop basics.
 
 5. 
 
 
-   ```
-       function findShort(s){
-       q = s.split(' ');
-       let newarr=q.map(function(m){
-       return m.length;
-       });
-       return Math.min.apply(Math, newarr)
-       }
-   ```
+    ```
+        function findShort(s){
+        q = s.split(' ');
+        let newarr=q.map(function(m){
+        return m.length;
+        });
+        return Math.min.apply(Math, newarr)
+        }
+    ```
 
 6. 
 
