@@ -1,0 +1,149 @@
+*{
+    font-family: 'Brygada 1918', serif;
+    color: #574b4b;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+li{
+   list-style: square;
+   margin-left: 15px;
+   margin-bottom: 15px;
+}
+.wrapper{
+    box-sizing: border-box;
+    margin-top: 20px;
+    background: linear-gradient(180deg, #f5f8fc, #decaca);
+    padding: auto;
+    margin: auto;
+    width: 840px;
+    height: 1400px;
+}
+mark{
+    background-color:#f5f8fc;
+    font-weight: bold;
+}
+header {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.Name h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #292525;
+}
+.Name{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    margin-left: 30px;
+    width: 300px;
+    font-size: 18px;
+    z-index: 0;
+}
+.Name::after{
+    position: absolute;
+    bottom: 70px;
+    left: 260px;
+    margin-bottom: 15px;
+    display: block;
+    width: 70px;
+    height: 70px;
+    content: '';
+    background-color: #d46666; 
+    z-index: -1;
+}
+.extradiv{
+    position: relative;
+}
+.extradiv::after{
+    position: absolute;
+    bottom: 130px;
+    left: 310px;
+    margin-bottom: 15px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    content: '';
+    background-color: #db9393; 
+    z-index: -2;
+}
+.Name h1{
+    text-align: center;
+    height: 100px;
+    width: 400px;
+    background-color:#bf4747;
+}
+figure{
+    margin-right: 35px;
+    background-color: #bf4747;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+
+}
+article{
+    display: flex;
+    justify-content: space-between;
+}
+aside{
+    position: relative;
+    border-left: 3px, solid, black ;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+aside h3::before{
+    margin-bottom: 30px;
+    display: block;
+    width: 270px;
+    height: 1.5px;
+    content: '';
+    background-color: black; 
+}
+aside::after{
+    top: 105px;
+    right: 380px;
+    position: absolute;
+    display: block;
+    width: 2px;
+    height: 650px;
+    content: '';
+    background-color: black;
+}
+aside h3{
+    width: 300px;
+    font-size: 30px;
+    margin-top: 65px;
+    margin-bottom: 20px;
+}
+.section h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.section{
+    margin-top: 72px;
+    margin-left: 30px;
+    width: 400px;
+}
+.section section{
+    margin-bottom: 40px;
+}
+.section h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.section h2::before{
+    margin-bottom: 15px;
+    display: block;
+    width: 300px;
+    height: 1.5px;
+    content: '';
+    background-color: black; 
+}
