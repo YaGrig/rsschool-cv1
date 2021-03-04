@@ -25,7 +25,7 @@ Because of the nature of online learning, throught out classes **i expect to lea
       return m.length;
       });
       return Math.min.apply(Math, newarr)
-      }!
+      }
     ```
 
 6. 
