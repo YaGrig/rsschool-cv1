@@ -32,7 +32,7 @@ Because of the nature of online learning, throught out classes **i expect to lea
 
 6. 
 
-7. *BSMU* education. JS and HTML courses on coursera.org.
-English,French,Polish languages courses.
+7. *BSMU* education. JS and HTML courses.
+English,French,Polish languages.
 
 8. According to different online tests, my English is on level between *B2 and C1*.
