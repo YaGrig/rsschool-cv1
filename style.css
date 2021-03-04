@@ -5,6 +5,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 li{
    list-style: square;
    margin-left: 15px;
@@ -147,3 +148,24 @@ aside h3{
     content: '';
     background-color: black; 
 }
+footer ul{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+footer li{
+    list-style-type: none;
+}
+.github{
+    margin-right: 15px;
+    font-size: 25px;
+}
+.github:hover{
+   font-size: 35px;
+}
+.rs:hover{
+    height: 110px;
+    width: 110px;
+ }
