@@ -20,7 +20,15 @@ Because of the nature of online learning, throught out classes **i expect to lea
 5. 
 
 
-
+   ```
+       function findShort(s){
+       q = s.split(' ');
+       let newarr=q.map(function(m){
+       return m.length;
+       });
+       return Math.min.apply(Math, newarr)
+       }
+   ```
 
 6. 
 
