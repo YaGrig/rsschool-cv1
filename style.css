@@ -91,7 +91,7 @@ figure{
     width: 300px;
 
 }
-article{
+main{
     display: flex;
     justify-content: space-between;
 }
@@ -126,7 +126,7 @@ aside h3{
     margin-top: 65px;
     margin-bottom: 20px;
 }
-article h1{
+main h1{
     display: none;
 }
 .section h4{
