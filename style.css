@@ -15,9 +15,10 @@ li{
     box-sizing: border-box;
     margin-top: 20px;
     background: linear-gradient(180deg, #f5f8fc, #decaca);
-    padding: auto;
+    padding-right: 100px;
+    padding-left: 100px;
     margin: auto;
-    width: 840px;
+    width: 1240px;
     height: 1500px;
 }
 mark{
@@ -110,7 +111,7 @@ aside h3::before{
 }
 aside::after{
     top: 105px;
-    right: 380px;
+    right: 480px;
     position: absolute;
     display: block;
     width: 2px;
@@ -177,6 +178,10 @@ footer li{
 .youtube{
     height: 50px;
     width: 70px;
+}
+.youtube:hover{
+    height: 60px;
+    width: 80px;
 }
 .rs:hover{
     height: 110px;
