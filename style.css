@@ -91,7 +91,7 @@ figure{
     width: 300px;
 
 }
-article{
+main{
     display: flex;
     justify-content: space-between;
 }
