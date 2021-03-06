@@ -21,7 +21,7 @@ li{
     height: 1400px;
 }
 mark{
-    background-color:#f5f8fc;
+    background: none;
     font-weight: bold;
 }
 header {
@@ -124,6 +124,9 @@ aside h3{
     margin-top: 65px;
     margin-bottom: 20px;
 }
+article h1{
+    display: none;
+}
 .section h4{
     font-size: 20px;
     margin-bottom: 20px;
@@ -164,6 +167,10 @@ footer li{
 }
 .github:hover{
    font-size: 35px;
+}
+.rs{
+    height: 100px;
+    width: 100px;
 }
 .rs:hover{
     height: 110px;
